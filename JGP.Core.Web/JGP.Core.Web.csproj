@@ -15,9 +15,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Finbuckle.MultiTenant" Version="6.7.3" />
+    <PackageReference Include="Finbuckle.MultiTenant.EntityFrameworkCore" Version="6.7.3" />
     <PackageReference Include="JGP.Core" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.1.0" />
   </ItemGroup>
 
 </Project>

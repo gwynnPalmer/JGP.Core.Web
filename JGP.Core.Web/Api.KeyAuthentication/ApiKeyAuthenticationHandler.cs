@@ -13,7 +13,9 @@ namespace JGP.Core.Web.Api.KeyAuthentication
 {
     public class ApiKeyAuthenticationHandler : AuthenticationHandler<ApiKeyAuthenticationOptions>
     {
-        public const string HeaderName = "X-Api-Key";
+        public const string ApiKeyHeaderName = "X-Api-Key";
+
+        private const string ClaimsHeaderName = "claims";
 
         public ApiKeyAuthenticationHandler(
             IOptionsMonitor<ApiKeyAuthenticationOptions> options,
