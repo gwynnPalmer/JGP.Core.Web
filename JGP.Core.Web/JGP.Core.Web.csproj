@@ -7,7 +7,7 @@
 	<Description>Adds common core functionality for web projects</Description>
 	<Authors>Joshua Gwynn-Palmer</Authors>
 	<Copyright>Joshua Gwynn-Palmer</Copyright>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
 	<PackageId>JGP.Core.Web</PackageId>
 	<PackageDescription>Adds common core functionality for web projects</PackageDescription>
 	<RepositoryUrl>https://github.com/gwynnPalmer/JGP.Core.Web</RepositoryUrl>
@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JGP.Core" Version="1.0.2" />
+    <PackageReference Include="JGP.Core" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
   </ItemGroup>
